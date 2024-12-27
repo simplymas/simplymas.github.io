@@ -12,3 +12,20 @@ body {
     font-family: 'Rodondo', sans-serif;
     letter-spacing: 2px; 
   }
+
+  .welcome {
+    font-size: 75px;
+    text-align: center; 
+  }
+  .contents {
+    text-align: center; font-size: large;
+  }
+  .ann {
+    font-size: xx-large;
+  }
+  h4 {
+    font-size: large;
+  }
+  h2 {
+    font-size: xx-large;
+  }
