@@ -1,4 +1,10 @@
 body {
-    background-image: url('invsleep.png?');
-    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100vh;
+    background-image: url('invsleep.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: left center; 
+    overflow: hidden;
+    color: white;
   }
