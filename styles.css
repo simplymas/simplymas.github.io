@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/rodondo');
+
 body {
     margin: 0; 
     height: 100vh;
@@ -7,4 +9,5 @@ body {
     background-position: right center; 
     overflow: hidden;
     color: white;
+    font-family: 'Rodondo', sans-serif;
   }
