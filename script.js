@@ -9,12 +9,14 @@ function checkOrientation() {
 
   if (isLandscape) {
     // hide notif and show
-    orientationNotification.classList.add('hidden');
+    orientationNotification.style.display = 'none';
     content.style.visibility = 'visible';
   } else {
     // show and hide content
-    notificationText.textContent = 'Please put your phone horizontally so you can see :3';
-    orientationNotification.classList.remove('hidden');
+    notificationText.textContent = window.innerWidth < window.innerHeight
+      ? 'Please put your phone horizontally so you can see :3'
+      : 'hey, put it back 3:<';
+    orientationNotification.style.display = 'flex';
     content.style.visibility = 'hidden';
   }
 }
