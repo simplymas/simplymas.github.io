@@ -54,3 +54,34 @@ img {
 img:hover {
   transform: scale(1.1);
 }
+
+
+
+/*test shit dont mess with it bo
+/* styling */
+#orientationNotification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* dont mess with web while active */
+#content {
+  visibility: hidden;
+}
