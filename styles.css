@@ -34,7 +34,7 @@ h2 {
 }
 
 .float-image {
-  float: left; 
+  float: right; 
   margin: 0 15px 15px 0; 
   width: 150px;
   height: auto;
