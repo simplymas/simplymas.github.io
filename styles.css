@@ -59,8 +59,9 @@ img:hover {
 
 /*test shit dont mess with it bo
 /* styling */
+/* Notification styling */
 #orientationNotification {
-  display: flex;
+  display: none; /* default hide*/
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -68,20 +69,18 @@ img:hover {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9); /* dark bg */
   color: white;
   font-family: Arial, sans-serif;
   font-size: 1.5em;
   text-align: center;
   z-index: 1000;
   padding: 20px;
+  transition: background-color 0.3s ease; /*trans */
 }
 
-.hidden {
-  display: none;
-}
-
-/* dont mess with web while active */
+/* no interact :3 */
 #content {
-  visibility: hidden;
+  visibility: hidden; /*hide */
 }
+
