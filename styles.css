@@ -5,13 +5,13 @@ body {
     height: 100vh;
     background-image: url('invsleep.png'); 
     background-size: cover; 
-    float: left;
     background-repeat: no-repeat; 
-    overflow: hidden;
+    background-position: right center; 
     color: white;
     font-family: 'Rodondo', sans-serif;
     letter-spacing: 2px; 
-
+    float: left;
+    background-attachment: fixed;
   }
 
 .welcome {
