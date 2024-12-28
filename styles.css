@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/rodondo');
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
     margin: 0; 
     height: 100vh;
