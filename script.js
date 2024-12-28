@@ -8,15 +8,16 @@ function checkOrientation() {
     const isLandscape = window.innerWidth > window.innerHeight;
   
     if (isLandscape) {
-      // hide notif and show
-      orientationNotification.style.display = 'none';
-      orientationNotification.style.backgroundColor = 'transparent'; // no background
+      // hide notif w fade
+      setTimeout(() => {
+        orientationNotification.classList.remove('show-notification');
+      }, 500); // fade first then hide
       content.style.visibility = 'visible';
     } else {
-      // show notif and hide web
+      // show notif dim rest
       notificationText.textContent = 'Please put your phone horizontally so you can see :3';
-      orientationNotification.style.display = 'flex';
-      orientationNotification.style.backgroundColor = 'rgba(0, 0, 0, 0.9)'; // dim effect
+      orientationNotification.classList.add('show-notification');
+      orientationNotification.style.opacity = '1'; // let there be light
       content.style.visibility = 'hidden';
     }
   }

@@ -2,9 +2,9 @@
 
 /*test shit dont mess with it bo
 /* styling */
-/* Notification styling */
+/* notif style */
 #orientationNotification {
-  display: none; /* default hide*/
+  display: none; /* Hidden by default */
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -19,13 +19,20 @@
   text-align: center;
   z-index: 1000;
   padding: 20px;
-  transition: background-color 0.3s ease; /*trans */
+  opacity: 1;  /* full view */
+  transition: opacity 0.5s ease-out; /* smooth fade-out */
 }
 
-/* no interact :3 */
+/* no touch */
 #content {
-  visibility: hidden; /*hide */
+  visibility: hidden; /* hidden by default */
 }
+
+/* make notifs seen */
+.show-notification {
+  display: flex;
+}
+
 
 /*delete the top if it doesnt fucking work lmfao*/
 /*delete the top if it doesnt fucking work lmfao*/
@@ -88,7 +95,7 @@ img:hover {
   transform: scale(1.1);
 }
 
-.textalignment > h4{
+.textalignment h4{
   float: left; max-width: 75%;
 }
 
