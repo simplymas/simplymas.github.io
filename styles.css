@@ -11,6 +11,7 @@ body {
     color: white;
     font-family: 'Rodondo', sans-serif;
     letter-spacing: 2px; 
+    float: left;
   }
 
 .welcome {
