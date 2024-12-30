@@ -98,9 +98,22 @@ img:hover {
 }
 
 .textalignment h4{
-  text-align: left; max-width: 75%; margin-left: 10px;
+  text-align: left; 
+  max-width: 75%;
+  
 }
 
 
+/*spotify embed stuff*/
+.spotify-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+}
 
-
+iframe {
+  border: none;
+  max-width: 300px;
+  flex: 1; 
+}
