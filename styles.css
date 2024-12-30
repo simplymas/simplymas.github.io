@@ -45,18 +45,17 @@ html {
 }
 
 body {
-    margin: 0; 
-    height: 100vh;
-    background-image: url('invsleep.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: right center; 
-    color: white;
-    font-family: 'Rodondo', sans-serif;
-    letter-spacing: 2px; 
-    float: left;
-    background-attachment: fixed;
-  }
+  margin: 0; 
+  min-height: 100vh; 
+  background-image: url('invsleep.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: right center; 
+  color: white;
+  font-family: 'Rodondo', sans-serif;
+  letter-spacing: 2px; 
+  background-attachment: fixed;
+}
 
 .welcome {
   font-size: 75px;
@@ -64,8 +63,10 @@ body {
 }
 
 .contents {
-  text-align: center; font-size: large;
+  text-align: center; 
+  font-size: large;
 }
+
 .ann {
   font-size: xx-large;
 }
@@ -80,7 +81,6 @@ h2 {
 
 .float-image {
   display: block;
-  margin-left: auto;
   margin: 0 15px 15px 0; 
   width: 150px;
   height: auto;
@@ -90,21 +90,20 @@ img {
   border: 2px solid #ddd;
   border-radius: 8px;
   transition: transform 0.3s;
-  text-align: right; max-width: 25%; margin-right: 10px;
+  max-width: 25%; 
+  margin-right: 10px;
 }
 
 img:hover {
   transform: scale(1.1);
 }
 
-.textalignment h4{
+.textalignment h4 {
   text-align: left; 
   max-width: 75%;
-  
 }
 
-
-/*spotify embed stuff*/
+/* Spotify embed styling */
 .spotify-row {
   display: flex;
   flex-wrap: wrap;
@@ -115,5 +114,7 @@ img:hover {
 iframe {
   border: none;
   max-width: 300px;
-  flex: 1; 
+  width: 100%;
+  flex: none;
 }
+
