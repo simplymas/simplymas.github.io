@@ -1,37 +1,37 @@
-/*@import url('https://fonts.cdnfonts.com/css/rodondo');
+@import url('https://fonts.cdnfonts.com/css/rodondo');
 
 /*test shit dont mess with it bo
-/* styling */
-/* notif style */
-/*#orientationNotification {
-  /*display: none; /* Hidden by default */
-  /*justify-content: center;
-  /*align-items: center;
-  /*position: fixed;
-  /*top: 0;
-  /*left: 0;
-  /*width: 100vw;
-  /*height: 100vh;
-  /*background-color: rgba(0, 0, 0, 0.9); /* dark bg */
-  /*color: white;
-  /*font-family: Arial, sans-serif;
-  /*font-size: 1.5em;
-  /*text-align: center;
-  /*z-index: 1000;
-  /*padding: 20px;
-  /*opacity: 1;  /* full view */
-  /*transition: opacity 0.5s ease-out; /* smooth fade-out */
-/*}
+styling
+notif style
+#orientationNotification {
+  display: none; Hidden by default
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9); dark bg 
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  z-index: 1000;
+  padding: 20px;
+  opacity: 1;  full view
+  transition: opacity 0.5s ease-out; /* smooth fade-out 
+}
 
-/* no touch */
-/*#content {
-  /*visibility: hidden; /* hidden by default */
-/*}
+no touch
+#content {
+  visibility: hidden;  hidden by default 
+}
 
-/* make notifs seen */
-/*.show-notification {
-  /*display: flex;
-/*}
+ make notifs seen 
+.show-notification {
+  display: flex;
+}*/
 
 
 /*delete the top if it doesnt fucking work lmfao*/
