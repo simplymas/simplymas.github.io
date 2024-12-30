@@ -90,6 +90,7 @@ img {
   border: 2px solid #ddd;
   border-radius: 8px;
   transition: transform 0.3s;
+  text-align: right; max-width: 25%; margin-right: 10px;
 }
 
 img:hover {
@@ -97,7 +98,9 @@ img:hover {
 }
 
 .textalignment h4{
-  text-align: left; max-width: 75%;
+  text-align: left; max-width: 75%; margin-left: 10px;
 }
+
+
 
 
