@@ -90,7 +90,7 @@ img {
   border: 2px solid #ddd;
   border-radius: 8px;
   transition: transform 0.3s;
-  max-width: 25%; 
+  max-width: 100%; 
   margin-right: 10px;
 }
 
@@ -128,4 +128,7 @@ iframe {
   padding: 20px;
   text-align: center;
   border-radius: 8px;
+}
+#time {
+  font-weight: bold;
 }
